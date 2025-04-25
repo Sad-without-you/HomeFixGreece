@@ -1,0 +1,10 @@
+- name: Μαρία Παπαδοπούλου
+  service: Καθαρισμός
+  location: Θεσσαλονίκη
+  phone: +306912345678
+  min_price: 30
+- name: Νίκος Γεωργίου
+  service: Υδραυλικές Εργασίες
+  location: Θεσσαλονίκη
+  phone: +306987654321
+  min_price: 50

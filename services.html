@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Υπηρεσίες - HomeFix Greece</title>
+  <meta name="description" content="Βρείτε επαγγελματίες για καθαρισμό, υδραυλικές εργασίες και άλλες οικιακές υπηρεσίες στην Ελλάδα. Προσφέρετε την τιμή σας.">
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link href="/css/minimalist.css" rel="stylesheet">
+  <script src="/js/scripts.js" defer></script>
+  <style>
+    .booking-section {
+      display: none;
+    }
+    .service-price-badge {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      background-color: var(--color-primary);
+      color: white;
+      padding: 4px 8px;
+      border-radius: 9999px;
+      font-weight: bold;
+      font-size: 0.875rem;
+    }
+  </style>
+</head>
+<body class="min-h-screen flex flex-col">
+  <header class="py-4 sticky top-0 z-10">
+    <div class="container mx-auto flex justify-between items-center">
+      <h1 class="text-2xl font-bold text-primary">HomeFix Greece</h1>
+      <div class="flex items-center">
+        <select id="language-switcher" class="language-switcher mr-4">
+          <option value="el">Ελληνικά</option>
+          <option value="en">English</option>
+        </select>
+        <nav>
+          <a href="/index.html" class="nav-link" data-lang-el="Αρχική" data-lang-en="Home">Αρχική</a>
+          <a href="/register.html" class="nav-link" data-lang-el="Γίνε Συνεργάτης" data-lang-en="Become Partner">Γίνε Συνεργάτης</a>
+          <a href="/contact.html" class="nav-link" data-lang-el="Επικοινωνία" data-lang-en="Contact">Επικοινωνία</a>
+          <a href="/about.html" class="nav-link" data-lang-el="Σχετικά" data-lang-en="About">Σχετικά</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <main class="container mx-auto py-12">
+    <div id="services-container">
+      <h2 class="mb-6" data-lang-el="Οι Υπηρεσίες Μας" data-lang-en="Our Services">Οι Υπηρεσίες Μας</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div class="card p-4 relative">
+          <span class="service-price-badge" data-lang-el="Από 30€" data-lang-en="From €30">Από 30€</span>
+          <h3 class="text-xl font-semibold" data-lang-el="Καθαρισμός" data-lang-en="Cleaning">Καθαρισμός</h3>
+          <p class="text-secondary" data-lang-el="Επαγγελματικός καθαρισμός σπιτιών και γραφείων." data-lang-en="Professional cleaning of homes and offices.">Επαγγελματικός καθαρισμός σπιτιών και γραφείων.</p>
+          <div id="availability-cleaning" class="text-sm mt-2">
+            <span class="loading-indicator">Έλεγχος διαθεσιμότητας...</span>
+          </div>
+          <button class="book-now-btn text-accent hover:underline mt-2" data-min-price="30" data-service="cleaning" data-lang-el="Κλείσε τώρα" data-lang-en="Book now">Κλείσε τώρα</button>
+        </div>
+        <div class="card p-4 relative">
+          <span class="service-price-badge" data-lang-el="Από 50€" data-lang-en="From €50">Από 50€</span>
+          <h3 class="text-xl font-semibold" data-lang-el="Υδραυλικές Εργασίες" data-lang-en="Plumbing">Υδραυλικές Εργασίες</h3>
+          <p class="text-secondary" data-lang-el="Επισκευές και εγκαταστάσεις από πιστοποιημένους υδραυλικούς." data-lang-en="Repairs and installations by certified plumbers.">Επισκευές και εγκαταστάσεις από πιστοποιημένους υδραυλικούς.</p>
+          <div id="availability-plumbing" class="text-sm mt-2">
+            <span class="loading-indicator">Έλεγχος διαθεσιμότητας...</span>
+          </div>
+          <button class="book-now-btn text-accent hover:underline mt-2" data-min-price="50" data-service="plumbing" data-lang-el="Κλείσε τώρα" data-lang-en="Book now">Κλείσε τώρα</button>
+        </div>
+        <div class="card p-4 relative">
+          <span class="service-price-badge" data-lang-el="Από 45€" data-lang-en="From €45">Από 45€</span>
+          <h3 class="text-xl font-semibold" data-lang-el="Ηλεκτρολογικές Εργασίες" data-lang-en="Electrical Work">Ηλεκτρολογικές Εργασίες</h3>
+          <p class="text-secondary" data-lang-el="Επισκευές και εγκαταστάσεις από πιστοποιημένους ηλεκτρολόγους." data-lang-en="Repairs and installations by certified electricians.">Επισκευές και εγκαταστάσεις από πιστοποιημένους ηλεκτρολόγους.</p>
+          <div id="availability-electrical" class="text-sm mt-2">
+            <span class="loading-indicator">Έλεγχος διαθεσιμότητας...</span>
+          </div>
+          <button class="book-now-btn text-accent hover:underline mt-2" data-min-price="45" data-service="electrical" data-lang-el="Κλείσε τώρα" data-lang-en="Book now">Κλείσε τώρα</button>
+        </div>
+        <div class="card p-4 relative">
+          <span class="service-price-badge" data-lang-el="Από 35€" data-lang-en="From €35">Από 35€</span>
+          <h3 class="text-xl font-semibold" data-lang-el="Εργασίες Κήπου" data-lang-en="Gardening">Εργασίες Κήπου</h3>
+          <p class="text-secondary" data-lang-el="Φροντίδα κήπου, κλάδεμα, καθαρισμός εξωτερικών χώρων." data-lang-en="Garden care, pruning, outdoor space cleaning.">Φροντίδα κήπου, κλάδεμα, καθαρισμός εξωτερικών χώρων.</p>
+          <div id="availability-gardening" class="text-sm mt-2">
+            <span class="loading-indicator">Έλεγχος διαθεσιμότητας...</span>
+          </div>
+          <button class="book-now-btn text-accent hover:underline mt-2" data-min-price="35" data-service="gardening" data-lang-el="Κλείσε τώρα" data-lang-en="Book now">Κλείσε τώρα</button>
+        </div>
+        <div class="card p-4 relative">
+          <span class="service-price-badge" data-lang-el="Από 40€" data-lang-en="From €40">Από 40€</span>
+          <h3 class="text-xl font-semibold" data-lang-el="Βαψίματα" data-lang-en="Painting">Βαψίματα</h3>
+          <p class="text-secondary" data-lang-el="Εσωτερικοί και εξωτερικοί χώροι από έμπειρους ελαιοχρωματιστές." data-lang-en="Interior and exterior painting by experienced painters.">Εσωτερικοί και εξωτερικοί χώροι από έμπειρους ελαιοχρωματιστές.</p>
+          <div id="availability-painting" class="text-sm mt-2">
+            <span class="loading-indicator">Έλεγχος διαθεσιμότητας...</span>
+          </div>
+          <button class="book-now-btn text-accent hover:underline mt-2" data-min-price="40" data-service="painting" data-lang-el="Κλείσε τώρα" data-lang-en="Book now">Κλείσε τώρα</button>
+        </div>
+        <div class="card p-4 relative">
+          <span class="service-price-badge" data-lang-el="Από 60€" data-lang-en="From €60">Από 60€</span>
+          <h3 class="text-xl font-semibold" data-lang-el="Μετακομίσεις" data-lang-en="Moving Services">Μετακομίσεις</h3>
+          <p class="text-secondary" data-lang-el="Μεταφορά επίπλων και αντικειμένων με ασφάλεια." data-lang-en="Safe transport of furniture and belongings.">Μεταφορά επίπλων και αντικειμένων με ασφάλεια.</p>
+          <div id="availability-moving" class="text-sm mt-2">
+            <span class="loading-indicator">Έλεγχος διαθεσιμότητας...</span>
+          </div>
+          <button class="book-now-btn text-accent hover:underline mt-2" data-min-price="60" data-service="moving" data-lang-el="Κλείσε τώρα" data-lang-en="Book now">Κλείσε τώρα</button>
+        </div>
+        <div class="card p-4 relative">
+          <span class="service-price-badge" data-lang-el="Από 55€" data-lang-en="From €55">Από 55€</span>
+          <h3 class="text-xl font-semibold" data-lang-el="Απεντόμωση" data-lang-en="Pest Control">Απεντόμωση</h3>
+          <p class="text-secondary" data-lang-el="Καταπολέμηση εντόμων και τρωκτικών με φιλικές προς το περιβάλλον μεθόδους." data-lang-en="Insect and rodent control with environmentally friendly methods.">Καταπολέμηση εντόμων και τρωκτικών με φιλικές προς το περιβάλλον μεθόδους.</p>
+          <div id="availability-pestcontrol" class="text-sm mt-2">
+            <span class="loading-indicator">Έλεγχος διαθεσιμότητας...</span>
+          </div>
+          <button class="book-now-btn text-accent hover:underline mt-2" data-min-price="55" data-service="pestcontrol" data-lang-el="Κλείσε τώρα" data-lang-en="Book now">Κλείσε τώρα</button>
+        </div>
+      </div>
+    </div>
+    
+    <div id="booking-section" class="booking-section mt-12">
+      <div class="flex justify-between items-center mb-4">
+        <h2 id="book" class="text-3xl font-bold" data-lang-el="Κλείσε Υπηρεσία" data-lang-en="Book a Service">Κλείσε Υπηρεσία</h2>
+        <button id="back-to-services" class="text-accent hover:underline flex items-center">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-1" viewBox="0 0 20 20" fill="currentColor">
+            <path fill-rule="evenodd" d="M9.707 16.707a1 1 0 01-1.414 0l-6-6a1 1 0 010-1.414l6-6a1 1 0 011.414 1.414L5.414 9H17a1 1 0 110 2H5.414l4.293 4.293a1 1 0 010 1.414z" clip-rule="evenodd" />
+          </svg>
+          <span data-lang-el="Πίσω στις υπηρεσίες" data-lang-en="Back to services">Πίσω στις υπηρεσίες</span>
+        </button>
+      </div>
+      
+      <div id="selected-service-info" class="bg-light p-4 rounded-lg mb-6">
+        <h3 class="font-semibold mb-2" data-lang-el="Επιλεγμένη Υπηρεσία" data-lang-en="Selected Service">Επιλεγμένη Υπηρεσία</h3>
+        <div class="flex items-center">
+          <span id="selected-service-name" class="font-medium">Καθαρισμός</span>
+          <span class="mx-2">-</span>
+          <span id="selected-service-price" class="text-primary font-medium">Από 30€</span>
+        </div>
+      </div>
+      
+      <form name="booking" method="POST" data-netlify="true" class="card p-6 max-w-lg mx-auto">
+        <input type="hidden" name="form-name" value="booking">
+        
+        <div class="form-group">
+          <label class="form-label" data-lang-el="Όνομα" data-lang-en="Name">Όνομα</label>
+          <input type="text" name="name" required class="form-input">
+        </div>
+        
+        <div class="form-group">
+          <label class="form-label" data-lang-el="Τηλέφωνο" data-lang-en="Phone">Τηλέφωνο</label>
+          <input type="tel" name="phone" required class="form-input">
+        </div>
+        
+        <div class="form-group">
+          <label class="form-label" data-lang-el="Email (προαιρετικό)" data-lang-en="Email (optional)">Email (προαιρετικό)</label>
+          <input type="email" name="email" class="form-input">
+        </div>
+        
+        <input type="hidden" id="service-select-hidden" name="service" value="">
+        
+        <div class="form-group">
+          <label class="form-label" data-lang-el="Τοποθεσία" data-lang-en="Location">Τοποθεσία</label>
+          <input type="text" name="location" required class="form-input">
+        </div>
+        
+        <div class="form-group">
+          <label class="form-label" data-lang-el="Επιθυμητή Ημερομηνία" data-lang-en="Desired Date">Επιθυμητή Ημερομηνία</label>
+          <input type="date" name="date" required class="form-input">
+        </div>
+        
+        <div class="form-group">
+          <label class="form-label" data-lang-el="Προσφερόμενη Τιμή (€)" data-lang-en="Offered Price (€)">Προσφερόμενη Τιμή (€)</label>
+          <input id="price-input" type="number" name="price" required class="form-input" min="10">
+          <p id="min-price-notice" class="text-sm text-secondary mt-1"></p>
+        </div>
+        
+        <div class="form-group">
+          <label class="flex items-start">
+            <input type="checkbox" name="consent" required class="mt-1 mr-2"> 
+            <span data-lang-el="Συμφωνώ με την" data-lang-en="I agree to the">Συμφωνώ με την</span> 
+            <a href="/privacy.html" class="text-accent ml-1" data-lang-el="Πολιτική Απορρήτου" data-lang-en="Privacy Policy">Πολιτική Απορρήτου</a>
+          </label>
+        </div>
+        
+        <button type="submit" class="btn btn-primary w-full" data-lang-el="Υποβολή" data-lang-en="Submit">Υποβολή</button>
+      </form>
+    </div>
+  </main>
+  <footer class="mt-auto">
+    <div class="container mx-auto text-center">
+      <p>© 2025 HomeFix Greece. <span data-lang-el="Με επιφύλαξη παντός δικαιώματος." data-lang-en="All rights reserved.">Με επιφύλαξη παντός δικαιώματος.</span></p>
+      <div class="mt-2">
+        <a href="/privacy.html" class="footer-link" data-lang-el="Πολιτική Απορρήτου" data-lang-en="Privacy Policy">Πολιτική Απορρήτου</a>
+        <a href="/terms.html" class="footer-link" data-lang-el="Όροι Χρήσης" data-lang-en="Terms of Use">Όροι Χρήσης</a>
+        <a href="/contact.html" class="footer-link" data-lang-el="Επικοινωνία" data-lang-en="Contact">Επικοινωνία</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      // Get all "Book Now" buttons
+      const bookButtons = document.querySelectorAll('.book-now-btn');
+      const bookingSection = document.getElementById('booking-section');
+      const servicesContainer = document.getElementById('services-container');
+      const backToServicesBtn = document.getElementById('back-to-services');
+      const selectedServiceName = document.getElementById('selected-service-name');
+      const selectedServicePrice = document.getElementById('selected-service-price');
+      const priceInput = document.getElementById('price-input');
+      const minPriceNotice = document.getElementById('min-price-notice');
+      const serviceSelectHidden = document.getElementById('service-select-hidden');
+      
+      // Service name mapping
+      const serviceNames = {
+        'cleaning': { el: 'Καθαρισμός', en: 'Cleaning' },
+        'plumbing': { el: 'Υδραυλικές Εργασίες', en: 'Plumbing' },
+        'electrical': { el: 'Ηλεκτρολογικές Εργασίες', en: 'Electrical Work' },
+        'gardening': { el: 'Εργασίες Κήπου', en: 'Gardening' },
+        'painting': { el: 'Βαψίματα', en: 'Painting' },
+        'moving': { el: 'Μετακομίσεις', en: 'Moving Services' },
+        'pestcontrol': { el: 'Απεντόμωση', en: 'Pest Control' }
+      };
+      
+      // Add click event to all "Book Now" buttons
+      bookButtons.forEach(button => {
+        button.addEventListener('click', function() {
+          const service = this.getAttribute('data-service');
+          const minPrice = parseInt(this.getAttribute('data-min-price'));
+          const lang = document.documentElement.lang;
+          
+          // Update selected service info
+          selectedServiceName.textContent = serviceNames[service][lang];
+          selectedServicePrice.textContent = lang === 'el' ? `Από ${minPrice}€` : `From €${minPrice}`;
+          
+          // Set min price notice
+          minPriceNotice.textContent = lang === 'el' ? 
+            `Ελάχιστη τιμή: ${minPrice}€` : 
+            `Minimum price: €${minPrice}`;
+          
+          // Set minimum price
+          priceInput.min = minPrice;
+          priceInput.value = minPrice;
+          
+          // Set hidden service input
+          serviceSelectHidden.value = service;
+          
+          // Hide services, show booking form
+          servicesContainer.style.display = 'none';
+          bookingSection.style.display = 'block';
+          
+          // Scroll to booking form
+          window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+      });
+      
+      // Back to services button
+      backToServicesBtn.addEventListener('click', function() {
+        bookingSection.style.display = 'none';
+        servicesContainer.style.display = 'block';
+      });
+      
+      // Update availability indicators (simulated)
+      const availabilityContainers = document.querySelectorAll('[id^="availability-"]');
+      const availabilityStatuses = ['available', 'limited', 'available', 'available', 'limited', 'limited', 'available'];
+      const availabilityTexts = {
+        'available': {
+          el: '<span class="text-green-600">● Διαθέσιμο</span>',
+          en: '<span class="text-green-600">● Available</span>'
+        },
+        'limited': {
+          el: '<span class="text-yellow-600">● Περιορισμένη διαθεσιμότητα</span>',
+          en: '<span class="text-yellow-600">● Limited availability</span>'
+        },
+        'unavailable': {
+          el: '<span class="text-red-600">● Μη διαθέσιμο</span>',
+          en: '<span class="text-red-600">● Unavailable</span>'
+        }
+      };
+      
+      // Simulate loading availability data
+      setTimeout(() => {
+        availabilityContainers.forEach((container, index) => {
+          const status = availabilityStatuses[index % availabilityStatuses.length];
+          const lang = document.documentElement.lang;
+          container.innerHTML = availabilityTexts[status][lang];
+        });
+        
+        // Handle language switching for availability indicators
+        const languageSwitcher = document.getElementById('language-switcher');
+        if (languageSwitcher) {
+          languageSwitcher.addEventListener('change', function() {
+            const lang = this.value;
+            availabilityContainers.forEach((container, index) => {
+              const status = availabilityStatuses[index % availabilityStatuses.length];
+              container.innerHTML = availabilityTexts[status][lang];
+            });
+          });
+        }
+      }, 1000);
+    });
+  </script>
+</body>
+</html>

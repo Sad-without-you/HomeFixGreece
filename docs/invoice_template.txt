@@ -1,0 +1,63 @@
+ΤΙΜΟΛΟΓΙΟ ΠΡΟΜΗΘΕΙΑΣ / COMMISSION INVOICE
+
+Εκδότης (Issuer):
+HomeFix Greece
+Θεσσαλονίκη, Ελλάδα
+Τηλ: +30 691 234 5678
+Email: info@homefixgreece.gr
+ΑΦΜ: 123456789
+
+Προς (To):
+[ΟΝΟΜΑ ΕΠΑΓΓΕΛΜΑΤΙΑ / PROFESSIONAL NAME]
+[ΔΙΕΥΘΥΝΣΗ / ADDRESS]
+[ΑΦΜ / TAX ID]
+
+Αριθμός Τιμολογίου / Invoice Number: [ΑΡΙΘΜΟΣ / NUMBER]
+Ημερομηνία / Date: [ΗΜΕΡΟΜΗΝΙΑ / DATE]
+
+--------------------------------------------------
+ΠΕΡΙΓΡΑΦΗ / DESCRIPTION
+--------------------------------------------------
+Προμήθεια για υπηρεσίες που παρασχέθηκαν μέσω της πλατφόρμας HomeFix Greece
+Commission for services provided through the HomeFix Greece platform
+
+Υπηρεσία / Service: [ΤΥΠΟΣ ΥΠΗΡΕΣΙΑΣ / SERVICE TYPE]
+Αριθμός Κράτησης / Booking ID: [ΚΩΔΙΚΟΣ ΚΡΑΤΗΣΗΣ / BOOKING ID]
+Ημερομηνία Υπηρεσίας / Service Date: [ΗΜΕΡΟΜΗΝΙΑ / DATE]
+Τοποθεσία / Location: [ΤΟΠΟΘΕΣΙΑ / LOCATION]
+
+--------------------------------------------------
+ΑΝΑΛΥΣΗ / BREAKDOWN
+--------------------------------------------------
+Συνολικό Ποσό Κράτησης / Total Booking Amount: [ΠΟΣΟ / AMOUNT] €
+Ποσοστό Προμήθειας / Commission Rate: 10%
+Προμήθεια (χωρίς ΦΠΑ) / Commission (excluding VAT): [ΠΟΣΟ / AMOUNT] €
+
+--------------------------------------------------
+ΦΟΡΟΛΟΓΙΚΗ ΑΝΑΛΥΣΗ / TAX BREAKDOWN
+--------------------------------------------------
+[ΕΠΙΛΟΓΗ 1 - για επαγγελματίες με ΦΠΑ / OPTION 1 - for professionals with VAT]
+Καθαρή Αξία / Net Amount: [ΠΟΣΟ / AMOUNT] €
+ΦΠΑ / VAT (24%): [ΠΟΣΟ / AMOUNT] €
+Αντιστροφή Επιβάρυνσης ΦΠΑ / VAT Reverse Charge: Ναι / Yes
+Σύνολο / Total: [ΠΟΣΟ / AMOUNT] €
+
+[ΕΠΙΛΟΓΗ 2 - για μη επαγγελματίες ή απαλλαγμένους ΦΠΑ / OPTION 2 - for non-professionals or VAT exempt]
+Σύνολο (χωρίς ΦΠΑ) / Total (VAT exempt): [ΠΟΣΟ / AMOUNT] €
+Απαλλαγή ΦΠΑ βάσει / VAT exemption based on: Άρθρο 39, Ν.2859/2000 (Καθεστώς μικρών επιχειρήσεων)
+
+--------------------------------------------------
+ΠΛΗΡΩΜΗ / PAYMENT
+--------------------------------------------------
+Το ποσό έχει ήδη παρακρατηθεί από την αρχική πληρωμή του πελάτη.
+The amount has already been withheld from the client's initial payment.
+
+--------------------------------------------------
+ΣΗΜΕΙΩΣΕΙΣ / NOTES
+--------------------------------------------------
+Το παρόν αποτελεί νόμιμο παραστατικό σύμφωνα με την ελληνική φορολογική νομοθεσία και έχει υποβληθεί ηλεκτρονικά στην ΑΑΔΕ (myDATA).
+This is a legal document in accordance with Greek tax legislation and has been electronically submitted to AADE (myDATA).
+
+Υπογραφή / Signature: _________________________
+
+HomeFix Greece: Σύνδεση επαγγελματιών με πελάτες | Connecting professionals with clients 

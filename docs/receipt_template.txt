@@ -1,0 +1,55 @@
+ΑΠΟΔΕΙΞΗ ΠΑΡΟΧΗΣ ΥΠΗΡΕΣΙΩΝ / SERVICE RECEIPT
+
+Στοιχεία Παρόχου Υπηρεσίας (Service Provider Details):
+[ΟΝΟΜΑ / NAME]
+[ΔΙΕΥΘΥΝΣΗ / ADDRESS]
+[ΤΗΛΕΦΩΝΟ / PHONE]
+[EMAIL]
+
+Στοιχεία Πελάτη (Customer Details):
+[ΟΝΟΜΑ ΠΕΛΑΤΗ / CUSTOMER NAME]
+[ΔΙΕΥΘΥΝΣΗ / ADDRESS]
+[ΤΗΛΕΦΩΝΟ / PHONE]
+
+Αριθμός Απόδειξης / Receipt Number: [ΑΡΙΘΜΟΣ / NUMBER]
+Ημερομηνία / Date: [ΗΜΕΡΟΜΗΝΙΑ / DATE]
+
+--------------------------------------------------
+ΠΕΡΙΓΡΑΦΗ ΥΠΗΡΕΣΙΑΣ / SERVICE DESCRIPTION
+--------------------------------------------------
+Είδος Υπηρεσίας / Service Type: [ΤΥΠΟΣ ΥΠΗΡΕΣΙΑΣ / SERVICE TYPE]
+Ημερομηνία Υπηρεσίας / Service Date: [ΗΜΕΡΟΜΗΝΙΑ / DATE]
+Τοποθεσία / Location: [ΤΟΠΟΘΕΣΙΑ / LOCATION]
+Λεπτομέρειες / Details: [ΛΕΠΤΟΜΕΡΕΙΕΣ / DETAILS]
+
+--------------------------------------------------
+ΟΙΚΟΝΟΜΙΚΗ ΑΝΑΛΥΣΗ / FINANCIAL BREAKDOWN
+--------------------------------------------------
+Συνολικό Ποσό / Total Amount: [ΠΟΣΟ / AMOUNT] €
+Κρατήσεις Πλατφόρμας (10%) / Platform Fee (10%): [ΠΟΣΟ / AMOUNT] €
+Καθαρό Ποσό / Net Amount: [ΠΟΣΟ / AMOUNT] €
+
+--------------------------------------------------
+ΣΗΜΕΙΩΣΕΙΣ / NOTES
+--------------------------------------------------
+Η παρούσα απόδειξη εκδίδεται από ιδιώτη που δεν ασκεί επιχειρηματική δραστηριότητα. Το εισόδημα πρέπει να δηλωθεί στην ετήσια φορολογική δήλωση ως "εισόδημα από περιστασιακή παροχή υπηρεσιών".
+
+This receipt is issued by an individual not engaged in business activity. The income must be declared in the annual tax return as "income from occasional provision of services".
+
+--------------------------------------------------
+ΥΠΟΓΡΑΦΕΣ / SIGNATURES
+--------------------------------------------------
+
+Υπογραφή Παρόχου / Provider's Signature: _________________________
+
+Υπογραφή Πελάτη / Customer's Signature: _________________________
+
+--------------------------------------------------
+Η συναλλαγή πραγματοποιήθηκε μέσω της πλατφόρμας HomeFix Greece.
+This transaction was facilitated through the HomeFix Greece platform.
+
+Για περισσότερες πληροφορίες / For more information:
+HomeFix Greece
+Τηλ/Tel: +30 691 234 5678
+Email: info@homefixgreece.gr
+www.homefixgreece.gr 

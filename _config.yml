@@ -1,0 +1,29 @@
+title: HomeFix Greece
+description: Βρείτε επαγγελματίες για καθαρισμό, υδραυλικές εργασίες και άλλες οικιακές υπηρεσίες στην Ελλάδα.
+baseurl: ""
+url: ""
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - LICENSE
+  - CNAME
+
+# Collections for different types of content
+collections:
+  - providers
+
+# Default values
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+      lang: el

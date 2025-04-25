@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HomeFix Greece - Οικιακές Υπηρεσίες</title>
+  <meta name="description" content="Βρείτε επαγγελματίες για καθαρισμό, υδραυλικές εργασίες και άλλες οικιακές υπηρεσίες στη Θεσσαλονίκη και σε όλη την Ελλάδα.">
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link href="/css/minimalist.css" rel="stylesheet">
+  <script src="/js/scripts.js" defer></script>
+</head>
+<body class="min-h-screen flex flex-col">
+  <header class="py-4 sticky top-0 z-10">
+    <div class="container mx-auto flex justify-between items-center">
+      <h1 class="text-2xl font-bold text-primary">HomeFix Greece</h1>
+      <div class="flex items-center">
+        <select id="language-switcher" class="language-switcher mr-4">
+          <option value="el">Ελληνικά</option>
+          <option value="en">English</option>
+        </select>
+        <nav>
+          <a href="/services.html" class="nav-link" data-lang-el="Υπηρεσίες" data-lang-en="Services">Υπηρεσίες</a>
+          <a href="/register.html" class="nav-link" data-lang-el="Γίνε Συνεργάτης" data-lang-en="Become Partner">Γίνε Συνεργάτης</a>
+          <a href="/contact.html" class="nav-link" data-lang-el="Επικοινωνία" data-lang-en="Contact">Επικοινωνία</a>
+          <a href="/about.html" class="nav-link" data-lang-el="Σχετικά" data-lang-en="About">Σχετικά</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+  
+  <div class="hero">
+    <div class="container mx-auto text-center">
+      <h2 class="text-4xl md:text-5xl font-bold mb-4" data-lang-el="Κλείστε Υπηρεσίες Οικιακής Βοήθειας" data-lang-en="Book Home Services">Κλείστε Υπηρεσίες Οικιακής Βοήθειας</h2>
+      <p class="text-lg md:text-xl mb-8 max-w-3xl mx-auto" data-lang-el="Βρείτε καθαριστές, υδραυλικούς και άλλους επαγγελματίες – γρήγορα και εύκολα!" data-lang-en="Find cleaners, plumbers and other professionals – quickly and easily!">Βρείτε καθαριστές, υδραυλικούς και άλλους επαγγελματίες – γρήγορα και εύκολα!</p>
+      <div class="flex flex-col sm:flex-row justify-center gap-4">
+        <a href="/services.html" class="btn btn-primary" data-lang-el="Αναζήτηση Υπηρεσιών" data-lang-en="Search Services">Αναζήτηση Υπηρεσιών</a>
+        <a href="/register.html" class="btn btn-secondary" data-lang-el="Γίνε Συνεργάτης" data-lang-en="Become a Partner">Γίνε Συνεργάτης</a>
+      </div>
+    </div>
+  </div>
+  
+  <main class="container mx-auto py-12">
+    <section class="mb-16">
+      <h2 class="text-center mb-8" data-lang-el="Οι Υπηρεσίες Μας" data-lang-en="Our Services">Οι Υπηρεσίες Μας</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div class="card p-6">
+          <div class="feature-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-accent" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h18M3 14h18m-9-4v8m-7 0h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z" />
+            </svg>
+          </div>
+          <h3 class="text-xl font-semibold mb-2" data-lang-el="Καθαρισμός" data-lang-en="Cleaning">Καθαρισμός</h3>
+          <p class="text-secondary mb-4" data-lang-el="Επαγγελματικός καθαρισμός σπιτιών και γραφείων" data-lang-en="Professional cleaning of homes and offices">Επαγγελματικός καθαρισμός σπιτιών και γραφείων</p>
+          <a href="/services.html" class="text-accent hover:underline font-medium" data-lang-el="Περισσότερα" data-lang-en="Learn more">Περισσότερα →</a>
+        </div>
+        <div class="card p-6">
+          <div class="feature-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-accent" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v13m0-13V6a2 2 0 112 2h-2zm0 0V5.5A2.5 2.5 0 109.5 8H12zm-7 4h14M5 12a2 2 0 110-4h14a2 2 0 110 4M5 12v7a2 2 0 002 2h10a2 2 0 002-2v-7" />
+            </svg>
+          </div>
+          <h3 class="text-xl font-semibold mb-2" data-lang-el="Υδραυλικές Εργασίες" data-lang-en="Plumbing">Υδραυλικές Εργασίες</h3>
+          <p class="text-secondary mb-4" data-lang-el="Επισκευές και εγκαταστάσεις από πιστοποιημένους υδραυλικούς" data-lang-en="Repairs and installations by certified plumbers">Επισκευές και εγκαταστάσεις από πιστοποιημένους υδραυλικούς</p>
+          <a href="/services.html" class="text-accent hover:underline font-medium" data-lang-el="Περισσότερα" data-lang-en="Learn more">Περισσότερα →</a>
+        </div>
+        <div class="card p-6">
+          <div class="feature-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-accent" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
+            </svg>
+          </div>
+          <h3 class="text-xl font-semibold mb-2" data-lang-el="Ηλεκτρολογικές Εργασίες" data-lang-en="Electrical Work">Ηλεκτρολογικές Εργασίες</h3>
+          <p class="text-secondary mb-4" data-lang-el="Επισκευές και εγκαταστάσεις από πιστοποιημένους ηλεκτρολόγους" data-lang-en="Repairs and installations by certified electricians">Επισκευές και εγκαταστάσεις από πιστοποιημένους ηλεκτρολόγους</p>
+          <a href="/services.html" class="text-accent hover:underline font-medium" data-lang-el="Περισσότερα" data-lang-en="Learn more">Περισσότερα →</a>
+        </div>
+        <div class="card p-6">
+          <div class="feature-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-accent" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+            </svg>
+          </div>
+          <h3 class="text-xl font-semibold mb-2" data-lang-el="Και άλλες υπηρεσίες" data-lang-en="And more services">Και άλλες υπηρεσίες</h3>
+          <p class="text-secondary mb-4" data-lang-el="Βαψίματα, Εργασίες Κήπου, Μετακομίσεις, Απεντόμωση και πολλά άλλα" data-lang-en="Painting, Gardening, Moving, Pest Control and much more">Βαψίματα, Εργασίες Κήπου, Μετακομίσεις, Απεντόμωση και πολλά άλλα</p>
+          <a href="/services.html" class="text-accent hover:underline font-medium" data-lang-el="Δείτε όλες" data-lang-en="See all">Δείτε όλες →</a>
+        </div>
+      </div>
+    </section>
+    
+    <section class="mb-16">
+      <div class="bg-light rounded-lg p-8">
+        <div class="text-center max-w-2xl mx-auto">
+          <h2 class="mb-4" data-lang-el="Πώς Λειτουργεί" data-lang-en="How It Works">Πώς Λειτουργεί</h2>
+          <p class="text-lg mb-8" data-lang-el="Απλό, γρήγορο και αξιόπιστο" data-lang-en="Simple, fast and reliable">Απλό, γρήγορο και αξιόπιστο</p>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div class="text-center">
+            <div class="w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-4 bg-white">
+              <span class="text-2xl font-bold text-primary">1</span>
+            </div>
+            <h3 class="font-semibold text-xl mb-2" data-lang-el="Επιλέξτε Υπηρεσία" data-lang-en="Choose a Service">Επιλέξτε Υπηρεσία</h3>
+            <p class="text-secondary" data-lang-el="Συμπληρώστε τη φόρμα με τις ανάγκες σας και την προσφερόμενη τιμή" data-lang-en="Fill out the form with your needs and offered price">Συμπληρώστε τη φόρμα με τις ανάγκες σας και την προσφερόμενη τιμή</p>
+          </div>
+          <div class="text-center">
+            <div class="w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-4 bg-white">
+              <span class="text-2xl font-bold text-primary">2</span>
+            </div>
+            <h3 class="font-semibold text-xl mb-2" data-lang-el="Σύνδεση με Επαγγελματία" data-lang-en="Connect with a Professional">Σύνδεση με Επαγγελματία</h3>
+            <p class="text-secondary" data-lang-el="Θα βρούμε τον κατάλληλο επαγγελματία για εσάς, βάσει της τοποθεσίας και των αναγκών σας" data-lang-en="We'll find the right professional for you, based on your location and needs">Θα βρούμε τον κατάλληλο επαγγελματία για εσάς, βάσει της τοποθεσίας και των αναγκών σας</p>
+          </div>
+          <div class="text-center">
+            <div class="w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-4 bg-white">
+              <span class="text-2xl font-bold text-primary">3</span>
+            </div>
+            <h3 class="font-semibold text-xl mb-2" data-lang-el="Πληρωμή & Εκτέλεση" data-lang-en="Payment & Execution">Πληρωμή & Εκτέλεση</h3>
+            <p class="text-secondary" data-lang-el="Πληρώστε με ασφάλεια μέσω Stripe και λάβετε την υπηρεσία στο χώρο σας" data-lang-en="Pay securely through Stripe and receive the service at your location">Πληρώστε με ασφάλεια μέσω Stripe και λάβετε την υπηρεσία στο χώρο σας</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section>
+      <div class="card p-8">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div>
+            <h2 class="mb-4" data-lang-el="Γίνε Συνεργάτης" data-lang-en="Become a Partner">Γίνε Συνεργάτης</h2>
+            <p class="text-lg mb-6" data-lang-el="Προσφέρετε τις υπηρεσίες σας μέσω της πλατφόρμας μας και αποκτήστε νέους πελάτες." data-lang-en="Offer your services through our platform and gain new customers.">Προσφέρετε τις υπηρεσίες σας μέσω της πλατφόρμας μας και αποκτήστε νέους πελάτες.</p>
+            
+            <div class="mb-6 bg-light p-4 rounded-lg">
+              <h3 class="font-semibold mb-2" data-lang-el="Επιλογές Συνεργασίας" data-lang-en="Partnership Options">Επιλογές Συνεργασίας</h3>
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div class="bg-white p-3 rounded border">
+                  <h4 class="font-semibold text-primary" data-lang-el="Επαγγελματίας" data-lang-en="Professional">Επαγγελματίας</h4>
+                  <p class="text-sm" data-lang-el="Για πιστοποιημένους επαγγελματίες με εμπειρία. Καθορίζετε τις τιμές σας και κερδίζετε περισσότερα." data-lang-en="For certified professionals with experience. Set your own prices and earn more.">Για πιστοποιημένους επαγγελματίες με εμπειρία. Καθορίζετε τις τιμές σας και κερδίζετε περισσότερα.</p>
+                </div>
+                <div class="bg-white p-3 rounded border">
+                  <h4 class="font-semibold text-primary" data-lang-el="Ιδιώτης" data-lang-en="Non-Professional">Ιδιώτης</h4>
+                  <p class="text-sm" data-lang-el="Για όσους προσφέρουν υπηρεσίες περιστασιακά. Εργαστείτε με προτεινόμενες τιμές και αποκτήστε εμπειρία." data-lang-en="For those offering services occasionally. Work with suggested prices and gain experience.">Για όσους προσφέρουν υπηρεσίες περιστασιακά. Εργαστείτε με προτεινόμενες τιμές και αποκτήστε εμπειρία.</p>
+                </div>
+              </div>
+            </div>
+            
+            <ul class="mb-6 space-y-2">
+              <li class="flex items-start">
+                <svg class="h-5 w-5 text-accent mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                </svg>
+                <span data-lang-el="Χωρίς κόστος εγγραφής" data-lang-en="No registration fee">Χωρίς κόστος εγγραφής</span>
+              </li>
+              <li class="flex items-start">
+                <svg class="h-5 w-5 text-accent mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                </svg>
+                <span data-lang-el="Μόνο 10% προμήθεια ανά εργασία" data-lang-en="Only 10% commission per job">Μόνο 10% προμήθεια ανά εργασία</span>
+              </li>
+              <li class="flex items-start">
+                <svg class="h-5 w-5 text-accent mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                </svg>
+                <span data-lang-el="Ευέλικτο ωράριο εργασίας" data-lang-en="Flexible working hours">Ευέλικτο ωράριο εργασίας</span>
+              </li>
+              <li class="flex items-start">
+                <svg class="h-5 w-5 text-accent mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                </svg>
+                <span data-lang-el="Αύξηση του πελατολογίου σας" data-lang-en="Increase your client base">Αύξηση του πελατολογίου σας</span>
+              </li>
+            </ul>
+            <a href="/register.html" class="btn btn-primary" data-lang-el="Εγγραφείτε τώρα" data-lang-en="Register now">Εγγραφείτε τώρα</a>
+          </div>
+          <div class="hidden md:block">
+            <div class="bg-light rounded-lg p-6 h-full">
+              <h3 class="text-xl font-semibold mb-4" data-lang-el="Πλεονεκτήματα Συνεργασίας" data-lang-en="Partnership Benefits">Πλεονεκτήματα Συνεργασίας</h3>
+              <div class="space-y-4">
+                <div class="bg-white p-4 rounded-lg">
+                  <h4 class="font-medium text-primary mb-2" data-lang-el="Αύξηση Εισοδήματος" data-lang-en="Increased Income">Αύξηση Εισοδήματος</h4>
+                  <p class="text-secondary" data-lang-el="Πρόσβαση σε νέους πελάτες χωρίς κόστος διαφήμισης και προώθησης." data-lang-en="Access to new clients without advertising and promotion costs.">Πρόσβαση σε νέους πελάτες χωρίς κόστος διαφήμισης και προώθησης.</p>
+                </div>
+                <div class="bg-white p-4 rounded-lg">
+                  <h4 class="font-medium text-primary mb-2" data-lang-el="Ευελιξία" data-lang-en="Flexibility">Ευελιξία</h4>
+                  <p class="text-secondary" data-lang-el="Εσείς επιλέγετε πότε και πού θα εργαστείτε, με βάση τη διαθεσιμότητά σας." data-lang-en="You choose when and where to work, based on your availability.">Εσείς επιλέγετε πότε και πού θα εργαστείτε, με βάση τη διαθεσιμότητά σας.</p>
+                </div>
+                <div class="bg-white p-4 rounded-lg">
+                  <h4 class="font-medium text-primary mb-2" data-lang-el="Υποστήριξη" data-lang-en="Support">Υποστήριξη</h4>
+                  <p class="text-secondary" data-lang-el="Πλήρης υποστήριξη από την ομάδα μας για την επίλυση προβλημάτων και την αύξηση των κρατήσεων." data-lang-en="Full support from our team to solve problems and increase bookings.">Πλήρης υποστήριξη από την ομάδα μας για την επίλυση προβλημάτων και την αύξηση των κρατήσεων.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  
+  <footer class="mt-auto">
+    <div class="container mx-auto text-center">
+      <p>© 2025 HomeFix Greece. <span data-lang-el="Με επιφύλαξη παντός δικαιώματος." data-lang-en="All rights reserved.">Με επιφύλαξη παντός δικαιώματος.</span></p>
+      <div class="mt-2">
+        <a href="/privacy.html" class="footer-link" data-lang-el="Πολιτική Απορρήτου" data-lang-en="Privacy Policy">Πολιτική Απορρήτου</a>
+        <a href="/terms.html" class="footer-link" data-lang-el="Όροι Χρήσης" data-lang-en="Terms of Use">Όροι Χρήσης</a>
+        <a href="/contact.html" class="footer-link" data-lang-el="Επικοινωνία" data-lang-en="Contact">Επικοινωνία</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
